@@ -26,6 +26,15 @@ A modo de controlador, se ha creado este archivo donde están las siguientes fun
  
  -- Una vez finalizado este proceso, procede a salvar su nuevo status en el archivo tasksCompleted.
  
+ ### Archivo /tests/test.js
+ Para realizar los test unitarios se ha creado este archivo donde estan recogidas las pruebas sobre los dos endpoints, tanto cuando el parametro es correcto como cuando no es correcto.
+ 
+ 
+ ## Ejecucion del proyecto
+ 
+ En caso de usar nodemon -> nodemon ./bin/www sino vale con ejecutar -> npm start.
+ Para la ejecucion de los test unitarios -> npm test
+ 
  
 
 
