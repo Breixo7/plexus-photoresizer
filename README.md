@@ -13,12 +13,13 @@ A modo de controlador, se ha creado este archivo donde están las siguientes fun
 - taskInfo: Controla la llamada get, recibiendo un taskId, buscando en el archivo taskCompleted y devolviendo la informacion de la task si esta ha sido encontrada o en su defecto sino ha sido encontrada devuelve un KO.
 
 - resizer: Controla la llamada post, recibiendo una url como parámetro y realizando las siguientes funciones :
- Genera nombre del archivo codificandolo en MD5. Usando la librería md5.
- Prepara la informacion de la imagen y de la tarea para su posterior guardado en disco.
- Guarda la informacion de la imagen en el json imagesLog.
- Guarda la informacion de la tarea en el json tasksLog.
- Crea la ruta requerida para el guardado de las imagenes escaladas usando mkdirp, que las crea de manera recursiva y procede al escalado de  las imágenes en 1024 y 800 de width para su guardado en sus respectivas rutas.
- Una vez finalizado este proceso, procede a salvar su nuevo status en el archivo tasksCompleted.
+
+ -- Genera nombre del archivo codificandolo en MD5. Usando la librería md5.
+ -- Prepara la informacion de la imagen y de la tarea para su posterior guardado en disco.
+ -- Guarda la informacion de la imagen en el json imagesLog.
+ -- Guarda la informacion de la tarea en el json tasksLog.
+ -- Crea la ruta requerida para el guardado de las imagenes escaladas usando mkdirp, que las crea de manera recursiva y procede al escalado de  las imágenes en 1024 y 800 de width para su guardado en sus respectivas rutas.
+ -- Una vez finalizado este proceso, procede a salvar su nuevo status en el archivo tasksCompleted.
  
  
 
